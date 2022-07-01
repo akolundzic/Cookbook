@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="./resources/css/style.css">
+
+  <title>Saffron Cookbook</title>
+</head>
+
+<body>
+
+
+  <header>
+    <div class="saffronlogo"><a href="index.html"><img id="logomain"
+          src="./resources/image/headerfooter/saffronpurple.png" alt=""></a></div>
+    <div class="headernav">
+      <nav>
+        <ul class="menu">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">KITCHEN</a></li>
+          <li><a href="#">VIDEOS</a></li>
+          <li><a href="#">RECIPES MAGAZINE</a></li>
+          <input type="text" placeholder="Find a recipe..">
+          <a href="#"><img src="./resources/image/headerfooter/searchbar.png" alt=""></a>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 my-menu-col">
+
+        <h1>RECIPES</h1>
+
+
+        <div class="dropdown">
+          <button class="btn" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+            Drink
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+            <li id="drink1"><a class="dropdown-item" href="#">Galactic Cocktails</a></li>
+            <li id="drink2"><a class="dropdown-item" href="#">Last World Cocktail</a></li>
+            <li id="drink3"><a class="dropdown-item" href="#">Drink 3</a></li>
+          </ul>
+        </div>
+
+        <div class="dropdown">
+          <button class="btn" type="button" id="dropdownMenuButton3" data-bs-toggle="dropdown" aria-expanded="false">
+            Spices & More
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
+            <li><a class="dropdown-item" href="#">Spices & More 1</a></li>
+            <li><a class="dropdown-item" href="#">Spices & More 2</a></li>
+            <li><a class="dropdown-item" href="#">Spices & More 3</a></li>
+          </ul>
+        </div>
+
+        <div class="dropdown">
+          <button class="btn" type="button" id="dropdownMenuButton4" data-bs-toggle="dropdown" aria-expanded="false">
+            Rice
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton4">
+            <li id="rice1"><a class="dropdown-item" href="#">Rice Fried Rice</a></li>
+            <li id="rice2"><a class="dropdown-item" href="#">Rice Great Greek</a></li>
+            <li id="rice3"><a class="dropdown-item" href="#">Rice Paella</a></li>
+          </ul>
+        </div>
+
+
+        <div class="dropdown">
+          <button class="btn" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+            Main Dish
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+            <li><a class="dropdown-item" href="#">Main Dish 1</a></li>
+            <li><a class="dropdown-item" href="#">Main Dish 2</a></li>
+            <li><a class="dropdown-item" href="#">Main Dish 3</a></li>
+          </ul>
+        </div>
+
+
+      </div>
+      <div class="col-md-9 my-recipe-col">
+
+        <div id="galactic-cocktails"><iframe src="./resources/html/Galactic-Cocktails.html" width="100%" height="800px"
+            frameborder="0"></iframe></div>
+
+        <div id="last-world-cocktail"><iframe src="./resources/html/Last-World-Cocktail.html" width="100%"
+            height="800px" frameborder="0"></iframe></div>
+
+
+        <div id="rice-fried-rice"><iframe src="./resources/html/rice-fried-rice.html" width="100%"
+            height="800px" frameborder="0"></iframe></div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer">
+        <img id="logofooter" src="./resources/image/headerfooter/saffron2.png" alt="">
+        <div class="footer-heading footer-left">
+          <!-- SOLVE THIS H2 LINKING ISSUE  -->
+          <h2>About Us</h2>
+          <a href="#"> Help </a>
+          <a href="#"> Jobs </a>
+          <a href="#"> Privacy </a>
+          <a href="#"> Terms of Service </a>
+        </div>
+        <div class="footer-heading footer-mid">
+          <h2>Contact Us</h2>
+          <a href="#"> Jobs </a>
+          <a href="#"> Support </a>
+          <a href="#"> Contact </a>
+          <a href="#"> Cookies Policy </a>
+        </div>
+        <div class="footer-heading footer-right">
+          <h2>Social Media</h2>
+          <a href="#"> Instagram </a>
+          <a href="#"> Youtube </a>
+          <a href="#"> Facebook </a>
+          <a href="#"> Twitter </a>
+        </div>
+        <div class="footer-email-form">
+          <h2>Join Our Newsletter</h2>
+          <input type="email" placeholder="Enter your E-Mail " id="footer-email">
+          <input type="submit" value="Join!" id="footer-email-btn">
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+
+  <script src="./resources/javascript/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
